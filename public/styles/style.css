@@ -60,3 +60,47 @@ button:hover {
 .container {
     padding: 16px;
 }
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.flexibox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darksalmon;
+    color: black;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: chocolate;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: darksalmon;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+}

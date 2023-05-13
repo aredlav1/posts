@@ -8,24 +8,22 @@
 </head>
 
 <body>
-    <nav>
-        <a href="./post.html">Post</a><br>
-        <a id="Logout">LOGOUT</a>
+
+    <nav class="flexibox">
+        <a href="register.html">REGISTER</a><br>
+        <a href="login.html">LOGIN</a>
     </nav>
+    <main class="middle">
         <form id="postForm">
-            <p class="error"></p>
             <label for="Posts"><b>Please enter the posts<b></label><br>
-            <textarea id="post" rows="5" cols="60" name="note"></textarea><br>
+            <input type="text" id="post"><br>
             <br>
-            <input type="submit" value="Create">
+            <input type="submit" value="save">
             <br>
+            <br>
+            <button id="Get-Posts">Get all posts</button>
         </form>
-        <br>
-        <br>
-        <label>Previous notesbelow</label>
-        <ol id="postsList"></ol>
     </main>
     <script src="./scripts/myScript.js"></script>
-    <script src="./scripts/post.js"></script>
 </body>
 </html>
